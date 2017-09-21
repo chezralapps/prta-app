@@ -1,0 +1,89 @@
+body {
+    -webkit-touch-callout: none ;
+    -webkit-text-size-adjust: none ; -ms-text-size-adjust: none ;
+    -webkit-user-select: none ; -moz-user-select: none ; -ms-user-select: none ; user-select: none ;
+    -webkit-highlight: none ;
+    -webkit-tap-highlight-color: rgba(0,0,0,0) ;
+    -webkit-tap-highlight-color: transparent ;      /* For some Androids */
+}
+
+/* Recommended for Windows 8 Phone */
+/* SOURCE: http://www.excellentwebworld.com/common-problems-solution-for-windows-phone-8-phonegap */
+html {
+    -ms-touch-action: pan-x ;
+}
+
+/* Recommended for Windows 8 Phone */
+/* SOURCE: http://www.excellentwebworld.com/common-problems-solution-for-windows-phone-8-phonegap */
+body {
+    -ms-touch-action: pan-y ;
+    -ms-content-zooming: none ;
+}
+
+/* allow copy-paste */
+input, textarea  {
+    -webkit-user-select: text ; -moz-user-select: text ; -ms-user-select: text ; user-select: text ;
+}
+
+.ui-page, .ui-body-a, .ui-page-active, .ui-overlay-a, .ui-mobile-viewport
+{
+    background: transparent !important;
+}
+/* body, .ui-overlay-c */
+.SplashPic
+{
+    background: url('http://proroadtennis.com/wp-content/uploads/2016/10/IMG-20151029-WA0003.jpg') !important;
+    background-repeat:repeat-y !important;
+    background-position:center center !important;
+    background-attachment:scroll !important;
+    background-size:100% 100% !important;
+}
+#AdSpace
+{
+    height: 100px;
+	background: url('http://www.bpwccul.com/vehicleloan/images/logo.png') !important;
+	background-size:100% 100% !important;
+}
+
+
+h3{	
+	/* color:#0000A0; */
+	text-align:center;
+	color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkred;
+}
+.vers{
+	position: absolute;
+	bottom: 50px;
+	margin-left:40%;
+	margin-right:40%;
+	opacity:0.7;
+	font-size:80%;
+}
+.mytab {
+	width: 14.28% !important;  /* 7 tabs wide, use 12.5% for 8 tabs wide */
+	clear: none !important;  /* Prevent line break caused by ui-block-a */
+}
+.mthHD {
+	width: 81.8% !important;  /* 7 tabs wide, use 12.5% for 8 tabs wide */
+	clear: none !important;  /* Prevent line break caused by ui-block-a */
+}
+.myEnds {
+	width: 9% !important;  
+	clear: none !important;  /* Prevent line break caused by ui-block-a */
+}
+.NavbarCal .ui-btn { 
+	padding-top: 30px;
+	padding-bottom: 30px; 
+}
+table {
+	width: 100% !important;  
+	text-align: center;
+}
+.Dates{
+	color:green;
+}
+.goals {
+	position: relative;
+	top: -5px;
+}
